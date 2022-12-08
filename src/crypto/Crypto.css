@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap');
+
+.list-element
+{
+    padding : 10px 20px;
+    margin : 10px 0;
+
+    border-radius: 20px;
+    background-color: #2c114f;
+
+    color : #dadada;
+    font-family : 'Montserrat', sans-serif;
+    font-weight: 400;
+
+    flex : 2;
+}
+
+.crypto-symbol
+{
+    font-weight: 300;
+    margin-left : 14px;
+    color : #555;
+}
+
+.allCoins > ul
+{
+    list-style: none;
+    margin : 0;
+    padding : 10px;
+}
+
+h1
+{
+    font-family : 'Montserrat', sans-serif;
+    color : #dadada;
+    text-align : center;
+}
+
+.allCoins, .favoritedCoins
+{
+    flex : 2;
+}
+
+.coins-container 
+{
+    display : flex;
+}
+
+.allCoins, .favoritedCoins
+{
+    padding : 14px 20px;
+}
+
+hr
+{
+    border-color: #6425b6;
+}
+
+input[type=text]
+{
+    font-family: 'Montserrat', sans-serif;
+    width : 40%;
+    height : 32px;
+    border-radius: 12px;
+    background-color: #361561;
+    border : solid 1px transparent;
+    border-bottom : solid 3px #dadada;
+    color : #555;
+    font-size : 20px;
+    padding : 6px 12px;
+    transition : all .12s ease-in-out;
+    outline: 0;
+}
+
+input[type=text]:focus
+{
+    color : #dadada;
+    border : solid 1px #dadada;
+    border-bottom : solid 3px #dadada;
+    background-color: #471c80;
+}
+
+.list-element span
+{
+    font-size : 1.15rem;
+}
+
+.eye
+{
+    margin-right : 16px;
+    color : #555;
+    opacity: .5;
+    transition : all .12s ease-in-out;
+    cursor : pointer;
+}
+
+.eye-active
+{
+    margin-right : 16px;
+    color : #dadada;
+    transition : all .12s ease-in-out;
+    cursor : pointer;
+}
+
+.eye:hover
+{
+    color : #dadada;
+    opacity : 1;
+}
+
+.crypto-card
+{
+    background: #471c80;
+    border-radius: 20px;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom : 16px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2
+{
+    color : #dadada;
+}
+
+h2 > span
+{
+    float : right;
+}
+
+.crypto-logo
+{
+    width : 10%;
+    padding : 16px;
+
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crypto-logo img
+{
+    width : 80%;
+}
+
+.crypto-data
+{
+    width : 80%;
+    flex : 3 1 auto;
+    padding : 16px;
+}
+
+h3
+{
+    color : #dadada;
+    font-size : 1.4rem;
+    margin : 6px 0;
+}
+
+h3 .coin-symbol
+{
+    margin-left : 16px;
+    color : #aaa;
+    opacity: .5;
+    font-weight: 400;
+}
+
+h4
+{
+    color : #dadada;
+    margin : 0;
+    margin-bottom: 12px;
+}
+
+.coin-ranking
+{
+    color : #dadada;
+    opacity : .8;
+}
+
+.coin-pricing
+{
+    color : #dadada;
+}
+
+.coin-price
+{
+    font-weight: 600;
+}
+
+.lowest-price
+{
+    color : rgb(132, 15, 15);
+    font-weight: 500;
+}
+
+.highest-price
+{
+    color : rgb(21, 103, 21);
+    font-weight: 500;
+}
